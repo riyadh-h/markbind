@@ -23,5 +23,8 @@
   ],
   "deploy": {
     "message": "Site Update."
-  }
+  },
+  "plugins": [
+    "hiddenSiteNav"
+  ]
 }
