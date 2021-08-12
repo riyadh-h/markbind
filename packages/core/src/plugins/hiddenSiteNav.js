@@ -33,6 +33,9 @@ module.exports = {
             cheerio(node).attr('hidden', 'hidden');
         }
     },
+    getLinks: (pluginContext, frontMatter, content) => [
+        '<link rel="stylesheet" href="hiddenSiteNav.css">'
+    ],
     getScripts: (pluginContext, frontMatter, content) => [
         '<script>'
         + "$('#site-nav-show-button').click(() => {"
