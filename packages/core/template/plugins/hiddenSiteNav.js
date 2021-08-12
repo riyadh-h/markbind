@@ -42,5 +42,7 @@ module.exports = {
             $('#site-nav-hide-button').attr('hidden', 'hidden');
             $('#site-nav-show-button').removeAttr('hidden');
         });
+
+        return $.html();
     }
 }
