@@ -25,6 +25,6 @@
     "message": "Site Update."
   },
   "plugins": [
-    "hiddenSiteNav"
+    "./plugins/hiddenSiteNav.js"
   ]
 }
