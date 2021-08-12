@@ -26,5 +26,10 @@
   },
   "plugins": [
     "hiddenSiteNav"
-  ]
+  ],
+  "pluginsContext": {
+    "hiddenSiteNav": {
+      "navbarTheme": "dark"
+    }
+  }
 }
