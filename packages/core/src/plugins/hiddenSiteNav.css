@@ -1,13 +1,13 @@
 /* hiddenSiteNav.css */
 #site-nav-show-button,
 #site-nav-hide-button {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* Media query settings were copied from core/template/default/stylesheets/main.css */
 @media screen and (max-width: 991.98px) {
-    #site-nav-show-button,
-    #site-nav-hide-button {
-        display: none;
-    }
+  #site-nav-show-button,
+  #site-nav-hide-button {
+    display: none;
+  }
 }
