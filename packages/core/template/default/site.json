@@ -23,5 +23,13 @@
   ],
   "deploy": {
     "message": "Site Update."
+  },
+  "plugins": [
+    "hiddenSiteNav"
+  ],
+  "pluginsContext": {
+    "hiddenSiteNav": {
+      "navbarTheme": "dark"
+    }
   }
 }
